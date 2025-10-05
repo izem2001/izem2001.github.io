@@ -261,7 +261,7 @@ setupEventListeners() {
 }
 scrollCarousel(direction) {
     console.log('ScrollCarousel çağrıldı:', direction);
-    const cardWidth = 300; // Ürün kartı genişliği + gap
+    const cardWidth = 300; 
     const scrollAmount = cardWidth;
     
     if (direction === 'left') {
